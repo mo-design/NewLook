@@ -1,0 +1,559 @@
+body {
+	font-family: Helvetica, serif;
+
+}
+
+a {
+	color: #000;
+}
+
+a:hover 
+ {
+	color: #9a2722;
+}
+
+
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+h1 {
+	font-size: 60px;
+	padding: 46px 0 58px;
+} 
+
+
+h2 {
+	font-size: 40px;
+	text-transform: uppercase;
+	padding: 70px 0 25px;
+}
+
+
+
+button {
+	padding: 16px 40px;
+	font-size: 16px;
+	text-transform: uppercase;
+	letter-spacing: 0.3em;	
+	background: transparent;
+}
+
+
+.top {
+	width: 100%;
+	height: 50px;
+	border-bottom: 1px solid #ccc;
+}
+
+
+.wrapper {
+	width: 1200px;
+	margin: 0 auto;
+
+}
+
+.basket {
+	float: right;
+	width: 172px;
+	line-height: 50px;
+	border: 1px solid #ccc;
+	border-top: none;
+	text-align: center;
+
+}
+
+
+.basket:before {
+	content: url(../img/bag.png);
+
+}
+
+.icons {
+	float: right;
+	line-height: 50px;
+	padding-right: 20px;
+}
+
+.icons img {
+	margin-right: 10px;
+}
+
+
+.wishlist {
+	float: right;
+}
+
+
+.wishlist:before {
+	content: url(../img/wish.png);
+
+
+}
+
+.lang {
+	font-size: : 12px;
+	line-height: 50px;
+	letter-spacing: 0.05em;
+
+}
+
+.lang:before {
+	content: url(../img/lang.png);
+
+}
+
+
+.lang span {
+	font-style: italic;
+}
+
+.lang span a {
+	font-weight: bold;
+}
+
+
+.look__left {
+	font-size: 12px;
+	float: left;
+	margin: 30px 0;
+	text-align: left;
+	line-height: 30px;
+}
+
+.look__right {
+	font-size: 12px;
+	float: right;
+	margin: 30px 0;
+	text-align: right;
+	line-height: 30px;
+}
+
+.logo {
+	text-align: center;
+	padding-top: 35px;
+
+}
+
+.nav {
+	margin: 50px auto 30px;
+	
+}
+
+
+
+.nav li {
+	float: left;
+	padding-right: 44px;
+}
+
+.nav li:last-child {
+
+	padding-right: 0;
+}
+
+.nav li a {
+	font-size: 16px;
+	text-transform: uppercase;
+	letter-spacing: 0.15em;	
+}
+
+
+.pic_wrapper {
+	width: 100%;
+	height: 588px;
+	background: url(../img/mainpic.jpg) no-repeat;
+	background-position: center;
+
+}
+
+
+.pic_text {
+	padding-top:260px;
+	color: #fff;
+	text-align: center;
+}
+
+.pic_text_small {
+	padding-top: 107px;
+
+}
+
+
+.pic_text p {
+	text-transform: uppercase;
+	font-size: 14px;
+	letter-spacing: 0.3em;	
+}
+
+
+.pic_text button {
+	border: 1px solid #fff;
+	color: #fff;
+}
+
+.pic_text button:hover {
+	border: 1px solid #9a2722;
+	color: #9a2722;
+}
+ 
+
+
+
+/*----------------------------------------- MAIN -----------------------------------------------------------*/
+
+
+main {
+	margin: 0 0 50px;
+
+}
+
+.sale {
+	width: 1600px;
+	height: 410px;
+	margin: 0 auto;
+}
+
+.sale__pic {
+	width: 40%; 
+	float: right;
+}
+
+.sale__pic img {
+	width: 100%;
+
+}
+
+.sale__info {
+	width: 60%; 
+	float: left;
+	text-align: center;
+	color: #000;
+}
+
+
+.sale__info p {
+	width: 60%;
+	font-size: 16px;
+	font-style: italic;
+	margin: 0 auto;
+	letter-spacing: 0.3em;
+	line-height: 2;
+
+}
+
+.price {
+	padding: 40px 0;
+	font-size: 60px;
+	font-style: normal;	
+}
+
+.sale__info button {
+	border: 1px solid #000;
+	color: #000;
+}
+
+.sale__info button:hover {
+	border: 1px solid #9a2722;
+	color: #9a2722;
+}
+
+.differents {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.differents_right {
+	float: right;
+	width: 899px;
+}
+
+
+.differents_left {
+	float: left;
+	width: 282px;
+}
+
+
+
+.sprite {
+	width: 282px;
+	height: 311px;
+	background: url(../img/sprite.png);
+}
+
+
+.slot1 {
+	position: relative;
+	float: left;
+	width: 410px;
+	height: 538px;
+	background: url(../img/slot1.jpg);
+}
+
+.slot2 {
+	position: relative;
+	float: right;
+	width: 468px;
+	height: 538px;
+	background: url(../img/slot2.jpg);
+}
+
+.slot3 {
+	position: relative;
+	width: 282px;
+	height: 665px;
+	background: url(../img/slot3.jpg);
+}
+
+.slot4 {
+	position: relative;
+	margin-top: 560px;
+	width: 899px;
+	height: 417px;
+	background: url(../img/slot4.jpg);
+}
+
+.overtop {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 69px;
+	background: #fff;
+	opacity: 0.5;
+	z-index: 1;
+}
+
+.overbottom {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 69px;
+	background: #fff;
+	opacity: 0.5;
+	z-index: 1;
+}
+
+
+.overtop p, .overbottom p {
+	font-size: 20px;
+	line-height: 69px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #000;
+	letter-spacing: 0.2em;
+}
+
+
+.overtop span, .overbottom span {
+color: #9a2722;
+font-weight: bold;
+
+} 
+
+
+/*----------------------------------------- SLIDER -----------------------------------------------------------*/
+.slider {
+	width: 100%;
+	background: #f7f7f7;
+	height: 338px;
+}
+
+
+.slider_wrapper {
+	position: relative;
+	width: 1200px;
+	height: 338px;
+	margin: 0 auto;
+}
+
+.slider_wrapper img {
+	margin: 2px;
+}
+
+
+h2 {
+	text-align: center;
+}
+
+.slider__larrow {
+	position: absolute;
+	top: 150px;
+	left:-40px;
+	width: 20px;
+	height: 38px;
+	background: url(../img/larrow.png);
+}
+
+.slider__rarrow {
+	position: absolute;
+	top: 150px;
+	left:1219px;
+	width: 20px;
+	height: 38px;
+	background: url(../img/rarrow.png);	
+}
+
+.locator {
+	width: 100%;
+	background: #f7f7f7;
+	height: 338px;
+	margin: 67px 0 81px;
+}
+
+.locator_wrapper {
+	position: relative;
+	width: 1600px;
+	margin:  0 auto;
+}
+
+.locator__map {
+	float: left;
+	width: 60%;
+}
+
+.locator__map p {
+	text-align: center;
+	margin-top: 46px;
+	
+}
+
+
+.locator__store {
+	float: right;
+	width: 40%;
+	text-align: center;
+}
+
+
+.locator__store h2 {
+	color: #999999;
+	letter-spacing: 0.1em;
+}
+
+.locator__store p {
+	padding: 30px 0 50px;
+	font-size: 14px;
+	font-style: italic;
+	text-align: center;
+	letter-spacing: 0.3em;
+	color: #999999;
+}
+
+
+.locator__store button {
+	border: 1px solid #999999;
+	color: #999999;
+}
+
+.locator__store button:hover {
+	border: 1px solid #9a2722;
+	color: #9a2722;
+}
+
+
+/*--------------------------------- FOOTER ----------------------------------------------------*/
+
+footer {
+	border-top: 1px solid #ccc;
+	padding-top: 40px;
+
+}
+
+
+.collect {
+	float: right;
+	width: 300px;
+}
+
+.collect a {
+	text-align: center;
+	text-decoration: none;
+	color: #000;
+	font-size: 14px;
+	letter-spacing: 0.1em;
+	font-style: italic;
+}
+
+.collect p {
+	text-align: center;
+	text-decoration: none;
+	color: #999;
+	font-size: 12px;
+	letter-spacing: 0.1em;
+	font-style: italic;
+	padding-top: 10px;
+}
+
+.signup p {
+	width: 258px;
+	float: left;
+	line-height: 50px;
+	color: #000;
+	font-size: 18px;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+
+}
+
+.signup input {
+	width: 410px;
+	height: 50px;
+	border: 1px solid #adadad;
+	padding-left: 22px;
+	font-style: italic;
+	letter-spacing: 0.2em;
+
+} 
+
+.signup button {
+	position: relative;
+	background: #000;
+	color: #fff;
+}
+
+.bottom {
+	width: 100%;
+	height: 48px;
+	background: #000;
+	margin: 40px 0 80px;
+}
+
+
+.bottomnav ul {
+	float: left;
+}
+
+
+
+.bottomnav li {
+	float: left;
+	margin-right: 35px;
+	padding: 0 5px;
+}
+
+
+.bottomnav li a {
+	color: #fff;
+	font-size: 16px;
+	line-height: 48px;
+	text-transform: uppercase;
+	letter-spacing: 0.15em;	
+}
+
+.bottomnav li:hover {
+	background: #9a2722;
+}
+
+
+.copyright {
+	float: right;
+	color: #fff;
+	font-size: 11px;
+	line-height: 48px;
+	letter-spacing: 0.05sem;
+}

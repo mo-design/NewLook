@@ -47,22 +47,22 @@ table {
 
 @font-face {
   font-family: 'PfDinCond';
-  src: url("../build/fonts/pfdintextcondpro-thin-webfont.eot");
-  src: url("../build/fonts/pfdintextcondpro-thin-webfont.eot?#iefix") format("embedded-opentype"), url("../build/fonts/pfdintextcondpro-thin-webfont.woff2") format("woff2"), url("../build/fonts/pfdintextcondpro-thin-webfont.woff") format("woff"), url("../build/fonts/pfdintextcondpro-thin-webfont.ttf") format("truetype");
+  src: url("../fonts/pfdintextcondpro-thin-webfont.eot");
+  src: url("../fonts/pfdintextcondpro-thin-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/pfdintextcondpro-thin-webfont.woff2") format("woff2"), url("../fonts/pfdintextcondpro-thin-webfont.woff") format("woff"), url("../fonts/pfdintextcondpro-thin-webfont.ttf") format("truetype");
   font-weight: normal;
   font-style: normal; }
 
 @font-face {
   font-family: 'HelveticaLight';
-  src: url("../build/fonts/helveticaneuecyr-light-webfont.eot");
-  src: url("../build/fonts/helveticaneuecyr-light-webfont.eot?#iefix") format("embedded-opentype"), url("../build/fonts/helveticaneuecyr-light-webfont.woff2") format("woff2"), url("../build/fonts/helveticaneuecyr-light-webfont.woff") format("woff"), url(".../build/fonts/helveticaneuecyr-light-webfont.ttf") format("truetype");
+  src: url("../fonts/helveticaneuecyr-light-webfont.eot");
+  src: url("../fonts/helveticaneuecyr-light-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/helveticaneuecyr-light-webfont.woff2") format("woff2"), url("../fonts/helveticaneuecyr-light-webfont.woff") format("woff"), url(".../fonts/helveticaneuecyr-light-webfont.ttf") format("truetype");
   font-weight: normal;
   font-style: normal; }
 
 @font-face {
   font-family: 'HelveticaLightItalic';
-  src: url("../build/fonts/helveticaneuecyr-lightitalic-webfont.eot");
-  src: url("../build/fonts/helveticaneuecyr-lightitalic-webfont.eot?#iefix") format("embedded-opentype"), url("../build/fonts//helveticaneuecyr-lightitalic-webfont.woff2") format("woff2"), url("../build/fonts//helveticaneuecyr-lightitalic-webfont.woff") format("woff"), url("../build/fonts/helveticaneuecyr-lightitalic-webfont.ttf") format("truetype");
+  src: url("../fonts/helveticaneuecyr-lightitalic-webfont.eot");
+  src: url("../fonts/helveticaneuecyr-lightitalic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts//helveticaneuecyr-lightitalic-webfont.woff2") format("woff2"), url("../fonts//helveticaneuecyr-lightitalic-webfont.woff") format("woff"), url("../fonts/helveticaneuecyr-lightitalic-webfont.ttf") format("truetype");
   font-weight: normal;
   font-style: normal; }
 
@@ -130,7 +130,7 @@ button {
   text-align: center; }
 
 .basket:before {
-  content: url(../build/img/bag.png); }
+  content: url(../../build/img/bag.png); }
 
 .icons {
   float: right;
@@ -144,7 +144,7 @@ button {
   float: right; }
 
 .wishlist:before {
-  content: url(../build/img/wish.png); }
+  content: url(../../build/img/wish.png); }
 
 .lang {
   font-size: 12px;
@@ -152,7 +152,7 @@ button {
   letter-spacing: 0.05em; }
 
 .lang:before {
-  content: url(../build/img/lang.png); }
+  content: url(../../build/img/lang.png); }
 
 .lang span {
   font-family: "HelveticaLightItalic", sans-serif; }
@@ -196,7 +196,7 @@ button {
 .pic_wrapper {
   width: 100%;
   height: 588px;
-  background: url(../build/img/mainpic.jpg) no-repeat;
+  background: url(../../build/img/mainpic.jpg) no-repeat;
   background-position: center; }
 
 .pic_text {
@@ -290,64 +290,64 @@ main {
 .social__fb {
   top: 87px;
   left: 12px;
-  background: url(../build/img/social.png) no-repeat -1px -1px; }
+  background: url(../../build/img/social.png) no-repeat -1px -1px; }
   .social__fb:hover {
-    background: url(../build/img/social.png) no-repeat -1px -75px; }
+    background: url(../../build/img/social.png) no-repeat -1px -75px; }
 
 .social__twit {
   top: 87px;
   left: 103px;
-  background: url(../build/img/social.png) no-repeat -76px -1px; }
+  background: url(../../build/img/social.png) no-repeat -76px -1px; }
   .social__twit:hover {
-    background: url(../build/img/social.png) no-repeat -76px -75px; }
+    background: url(../../build/img/social.png) no-repeat -76px -75px; }
 
 .social__pint {
   top: 87px;
   left: 198px;
-  background: url(../build/img/social.png) no-repeat -151px -1px; }
+  background: url(../../build/img/social.png) no-repeat -151px -1px; }
   .social__pint:hover {
-    background: url(../build/img/social.png) no-repeat -151px -75px; }
+    background: url(../../build/img/social.png) no-repeat -151px -75px; }
 
 .social__goo {
   top: 135px;
   left: 58px;
-  background: url(../build/img/social.png) no-repeat -227px -1px; }
+  background: url(../../build/img/social.png) no-repeat -227px -1px; }
   .social__goo:hover {
-    background: url(../build/img/social.png) no-repeat -227px -75px; }
+    background: url(../../build/img/social.png) no-repeat -227px -75px; }
 
 .social__insta {
   top: 135px;
   left: 149px;
-  background: url(../build/img/social.png) no-repeat -302px -1px; }
+  background: url(../../build/img/social.png) no-repeat -302px -1px; }
   .social__insta:hover {
-    background: url(../build/img/social.png) no-repeat -302px -75px; }
+    background: url(../../build/img/social.png) no-repeat -302px -75px; }
 
 .slot1 {
   position: relative;
   float: left;
   width: 410px;
   height: 538px;
-  background: url(../build/img/slot1.jpg); }
+  background: url(../../build/img/slot1.jpg); }
 
 .slot2 {
   position: relative;
   float: right;
   width: 468px;
   height: 538px;
-  background: url(../build/img/slot2.jpg); }
+  background: url(../../build/img/slot2.jpg); }
 
 .slot3 {
   position: relative;
   width: 282px;
   height: 665px;
-  background: url(../build/img/slot3.jpg); }
+  background: url(../../build/img/slot3.jpg); }
 
 .slot4 {
   position: relative;
   margin-top: 560px;
   width: 899px;
   height: 417px;
-  background: url(../build/img/slot4.jpg); }
+  background: url(../../build/img/slot4.jpg); }
 
 .overtop {
   position: absolute;
@@ -358,7 +358,7 @@ main {
   opacity: 0.5;
   z-index: 1; }
   .overtop:after {
-    content: url(../build/img/romb.png);
+    content: url(../../build/img/romb.png);
     position: relative;
     top: -12px;
     left: 50%; }
@@ -372,7 +372,7 @@ main {
   opacity: 0.5;
   z-index: 1; }
   .overbottom:after {
-    content: url(../build/img/romb.png);
+    content: url(../../build/img/romb.png);
     position: relative;
     top: -81px;
     left: 50%; }
@@ -436,16 +436,16 @@ h2 {
 .slider__larrow {
   top: 150px;
   left: -40px;
-  background: url(../build/img/arrows.png) no-repeat 0 0; }
+  background: url(../../build/img/arrows.png) no-repeat 0 0; }
   .slider__larrow:hover {
-    background: url(../build/img/arrows.png) no-repeat 0 -38px; }
+    background: url(../../build/img/arrows.png) no-repeat 0 -38px; }
 
 .slider__rarrow {
   top: 150px;
   left: 1219px;
-  background: url(../build/img/arrows.png) no-repeat -22px 0; }
+  background: url(../../build/img/arrows.png) no-repeat -22px 0; }
   .slider__rarrow:hover {
-    background: url(../build/img/arrows.png) no-repeat -22px -38px; }
+    background: url(../../build/img/arrows.png) no-repeat -22px -38px; }
 
 .locator {
   width: 100%;
@@ -465,11 +465,11 @@ h2 {
 .locator__map {
   width: 493px;
   height: 242px;
-  background: url(../build/img/map.png);
+  background: url(../../build/img/map.png);
   margin: 46px auto 0; }
 
 .locator__map:hover {
-  background: url(../build/img/map.png) 0 -246px; }
+  background: url(../../build/img/map.png) 0 -246px; }
 
 .locator__store {
   float: right;

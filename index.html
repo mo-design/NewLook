@@ -5,7 +5,8 @@
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-	<script type="text/javascript" src="build/js/slider.js"></script>
+	<script type="text/javascript" src="build/js/jquery.flip.min.js"></script>
+	<script type="text/javascript" src="build/js/script.js"></script>
 </head>
 <body>
 	<header>
@@ -97,9 +98,14 @@
 	<main>
 		
 		<div class="sale">
-			<div class="sale__pic">
-				<img src="build/img/salepic.jpg">
-			</div>
+			<div id="card"> 
+ 				<div class="front"> 
+   					 <img src="build/img/salepic.jpg">
+  				</div> 
+ 				<div class="back">
+   					 <img src="build/img/salepic2.jpg"> 
+  				</div> 
+		</div>
 
 			<div class="sale__info">
 				<h2>NEW  SEASON jacket</h2>

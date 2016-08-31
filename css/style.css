@@ -228,11 +228,14 @@ main {
   height: 410px;
   margin: 0 auto; }
 
-.sale__pic {
+#card {
   width: 40%;
   float: right; }
 
-.sale__pic img {
+.front img {
+  width: 100%; }
+
+.back img {
   width: 100%; }
 
 .sale__info {
@@ -247,11 +250,11 @@ main {
   font-family: "HelveticaLightItalic", sans-serif;
   margin: 0 auto;
   letter-spacing: 0.2em;
-  line-height: 2; }
+  line-height: 1.5; }
 
 .price {
-  padding: 40px 0;
   font-size: 60px;
+  padding: 20px 0;
   font-family: "PfDinCond", sans-serif; }
 
 .sale__info button {

@@ -1,6 +1,9 @@
 $(document).ready(function() {
 
 
+    $("#card").flip();
+
+
 	var pixelsOffset = 248;
 	var left = $('.slider__larrow');
 	var	right = $('.slider__rarrow');
